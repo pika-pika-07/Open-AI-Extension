@@ -5,7 +5,10 @@
     "author": "Parth Bhatnagar",
     "version": "0.0.1",
     "manifest_version": 3,
-   
+   "icons": 
+       {
+    "96": "firdos.png"
+   },
     
     "action": {
         "default_popup": "popup.html"
