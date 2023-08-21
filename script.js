@@ -73,8 +73,9 @@ const readText = () => {
 
   if (valueString) {
     const inputString = getStringBetween(valueString);
-
-    openAICall(inputString, element);
+    if (inputString && inputString.length > 0) {
+      openAICall(inputString, element);
+    }
   }
 };
 

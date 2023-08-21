@@ -9,6 +9,7 @@
        {
     "96": "firdos.png"
    },
+   "permissions": ["storage", "activeTab"],
     
     "action": {
         "default_popup": "popup.html"
