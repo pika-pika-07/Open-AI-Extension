@@ -1,0 +1,21 @@
+{
+    
+    "name": "Firdos AI(uses ChatGPT)",
+    "description": "Using openAI as chrome extension",
+    "author": "Parth Bhatnagar",
+    "version": "0.0.1",
+    "manifest_version": 3,
+   
+    
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "runAt": "document_end",
+            "js": ["script.js"],
+            "all_frames": true
+        }
+    ]
+}
