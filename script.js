@@ -57,7 +57,7 @@ const debounce = (fn, timer = 500) => {
   };
 };
 
-const getStringBetween = (str, start = "Firdos:", end = ";") => {
+const getStringBetween = (str, start = "Search:", end = ".") => {
   const result = str.match(new RegExp(start + "(.*)" + end));
   return result ? result[1] : "";
 };
