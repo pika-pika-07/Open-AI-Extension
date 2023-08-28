@@ -1,7 +1,7 @@
 {
     
-    "name": "Firdos AI(uses ChatGPT)",
-    "description": "Using openAI as chrome extension",
+    "name": "Search-AI(uses ChatGPT)",
+    "description": "A small open AI tool used to streamline all your chatgpt searches at one place",
     "author": "Parth Bhatnagar",
     "version": "0.0.1",
     "manifest_version": 3,
