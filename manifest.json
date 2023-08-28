@@ -16,7 +16,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://twitter.com/home","https://www.linkedin.com/feed/", "https://www.reddit.com/","https://stackedit.io/", "https://dev.to/"],
+            "matches": ["https://*/*"],
             "runAt": "document_end",
             "js": ["script.js"],
             "all_frames": true
