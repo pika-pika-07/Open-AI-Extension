@@ -9,8 +9,7 @@
        {
     "96": "firdos.png"
    },
-   "permissions": [],
-   "host_permissions": ["https://*/*"],
+  
     
     "action": {
         "default_popup": "popup.html"
