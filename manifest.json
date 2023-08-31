@@ -9,7 +9,7 @@
        {
     "96": "firdos.png"
    },
-   "permissions": ["storage", "activeTab"],
+   "permissions": [],
    "host_permissions": ["https://*/*"],
     
     "action": {
